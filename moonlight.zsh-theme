@@ -11,7 +11,7 @@ function git_prompt_info() {
   echo "$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_PREFIX$(current_branch)$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
-function virtualenv_info() {
+function virtualenv_prompt_info() {
   echo '('`basename $VIRTUAL_ENV`')'
 }
 
